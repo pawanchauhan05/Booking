@@ -45,12 +45,10 @@ class BookingsActivity :  AppCompatActivity() {
 
         initObserver()
 
+        bookingsViewModel.getBookings(Calendar.getInstance().time)
 
-        val cal: Calendar = Calendar.getInstance()
-        bookingsViewModel.getBookings(cal.time)
-
-        imageViewNotification.setOnClickListener {
-            bookingsViewModel.getBookings(cal.time)
+        imageViewBackPress.setOnClickListener {
+            finish()
         }
 
         initTimer()

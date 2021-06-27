@@ -17,6 +17,7 @@
         android:layout_height="150dp">
 
         <ImageView
+            android:id="@+id/imageViewBackPress"
             android:contentDescription="Go Back"
             app:tint="@color/white"
             android:src="@drawable/ic_baseline_keyboard_backspace_24"
