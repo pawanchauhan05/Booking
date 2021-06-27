@@ -21,7 +21,9 @@ App demonstrating Clean Architecture using Coroutines and Android Jetpack Compon
 
 ### Source code & Test Cases
 > **app/src/main:** Directory having **main source code** of the booking app.
+
 > **app/src/androidTest:** Directory having **Local Database Test Case** of the booking app.
+
 > **app/src/test:** Directory having **JUnit Test Case** for repository, ViewModel, Remote Date Source and Local Data Source of the booking app.
 
 ### Architecture Diagram
