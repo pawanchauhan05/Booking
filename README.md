@@ -21,5 +21,4 @@ Dillinger uses a number of open source projects to work properly:
 ### Architecture Diagram
 This application strictly follows the below architecture
 
-<img src = "https://github.com/kanch231004/News-Feed/blob/master/screenshots/Architecture.png" width = 450 />
 
